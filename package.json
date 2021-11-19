@@ -4,7 +4,8 @@
   "description": "Crea una fábrica de robots usando TS.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "npx tsc src/*.ts --watch"
   },
   "repository": {
     "type": "git",
